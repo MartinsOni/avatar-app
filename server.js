@@ -54,4 +54,7 @@ mongoose
   .then(() => console.log("Database connected! 😍☕"))
   .catch((error) => console.log(error, "Database did not connect! ☹️❌"));
 
-app.listen(3001, () => console.log("The server is listening on port 3001... 🐒"));
+  const port = process.env.PORT || 5000;
+  app.listen(port, () => {
+    console.log("The server is listening for requests ...🐢")
+  });
