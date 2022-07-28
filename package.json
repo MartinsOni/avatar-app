@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "type": "module",
-
   "dependencies": {
     "concurrently": "^7.1.0",
     "bcrypt": "^5.0.1",
