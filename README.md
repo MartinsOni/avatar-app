@@ -21,7 +21,5 @@ This REST API will do the following:
 
 ### Frontend
 
-For the frontend, it is largely up to you how present the information to the user. You should be thinking in terms of "what features would my users want?"
-
-The tasks are largely non-specific and should be viewed as a guide to help you structure your application. Completing this tasks on their own will not provide you a fully functioning frontend application.
+I will be using React Js for the Front end (Client)
 
