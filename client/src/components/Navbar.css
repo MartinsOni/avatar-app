@@ -1,0 +1,31 @@
+#nav {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+#link{
+    padding: 10px;
+    margin: 15px 25px;
+    text-decoration: none;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+
+#link:hover{
+    box-shadow: none;
+}
+
+#navigation {
+    border-bottom: 10px solid black;
+    box-shadow: 10px 20px 15px silver;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+h1{
+   padding-top: 5px;
+   color: rgba(255, 0, 0, 0.989);
+}

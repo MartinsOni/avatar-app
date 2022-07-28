@@ -1,0 +1,38 @@
+.all-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  background-image: url("https://i2.wp.com/www.comicsbeat.com/wp-content/uploads/2020/05/ATLBTSO_CVR_4x6.jpg?ssl=1");
+  background-position: center;
+  padding: 40px;
+}
+
+.each-user{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: left;
+}
+
+img:hover{
+    transition: all 0.5s ease;
+    background: rgb(164, 163, 163);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1150px) {
+    .all-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    img:hover{
+        transition: none;
+        align-content: center; 
+    }
+}
+
